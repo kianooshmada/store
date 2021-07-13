@@ -15,6 +15,7 @@ class ProductProvider extends Component {
   addToCart = () => {
     console.log("hello from add to cart");
   };
+
   render() {
     return (
       <ProductContext.Provider
